@@ -21,9 +21,9 @@ import java.util.Set;
  */
 public class WizardWorldAPIClient {
 
-    private final String BASE_URL = "https://wizard-world-api.herokuapp.com";
-    private final String INGREDIENTS_PATH = "/Ingredients";
-    private final String ELIXIRS_PATH = "/Elixirs";
+    private static final String BASE_URL = "https://wizard-world-api.herokuapp.com";
+    private static final String INGREDIENTS_PATH = "/Ingredients";
+    private static final String ELIXIRS_PATH = "/Elixirs";
 
     private final HttpClient httpClient;
     private final ObjectMapper objectMapper;
