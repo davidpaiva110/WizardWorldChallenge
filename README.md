@@ -23,7 +23,7 @@ src
 │   ├── java
 │   │   ├── model         # Elixir, Ingredient, Inventor
 │   │   ├── service       # API client and Matcher logic
-│   │   └── wizard        # Main CLI entry point
+│   │   └── ui            # Main CLI entry point
 │
 └── test
 └── java
